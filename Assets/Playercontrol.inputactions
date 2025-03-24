@@ -1,0 +1,65 @@
+{
+    "name": "Playercontrol",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "46d2e3fb-9998-4e5c-b5fc-2d31c23b365b",
+            "actions": [
+                {
+                    "name": "move",
+                    "type": "Button",
+                    "id": "4a90c3e3-0cf1-48f7-8a51-376c8caa72b3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "kick",
+                    "type": "Button",
+                    "id": "d69f352b-962b-4535-a15f-4e8e56e4f5b7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "efe13222-c29c-4828-be9b-4bd62cf2aacb",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "49f90b5b-8b7d-4e3c-a207-930b5a29e0b8",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "Scale(factor=-1)",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2173d905-0aef-48b9-89b9-5cc5b7a405c2",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "kick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
